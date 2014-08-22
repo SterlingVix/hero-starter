@@ -48,14 +48,14 @@
 
 // The "Priest"
 // This hero will heal nearby friendly champions.
-var move = function(gameData, helpers) {
-  var myHero = gameData.activeHero;
-  if (myHero.health < 60) {
-    return helpers.findNearestHealthWell(gameData);
-  } else {
-    return helpers.findNearestTeamMember(gameData);
-  }
-};
+// var move = function(gameData, helpers) {
+//   var myHero = gameData.activeHero;
+//   if (myHero.health < 60) {
+//     return helpers.findNearestHealthWell(gameData);
+//   } else {
+//     return helpers.findNearestTeamMember(gameData);
+//   }
+// };
 
 // The "Cleric"
 // This hero will kill, then heal nearby friendly champions.
